@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.allContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contentBlock {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  border-radius: 2%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.image {
+  margin: 20px;
+}
+img {
+  border-radius: 10%;
+  width: 102px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #181818;
+  width: 231px;
+  height: 211px;
+}
+.titleGenres {
+  width: 68px;
+  height: 27px;
+}
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  width: 255px;
+  height: auto;
+  margin-bottom: 5px;
+}
+.subGenres {
+  font-size: 16px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  text-align: center;
+  color: #181818;
+  background-color: #eaac99;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: auto;
+  height: auto;
+}
